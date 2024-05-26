@@ -13,7 +13,7 @@ namespace att10
             int c = 0;
             for (int i = 0; i < matriz.GetLength(0); i++)
             {
-                for (int j = 0; i < matriz.GetLength(1); i++)
+                for (int j = 0; j < matriz.GetLength(1); j++)
                 {
                   if(matriz[i,j] > 10)
                     {
